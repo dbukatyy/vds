@@ -1,0 +1,43 @@
+extends layout/main
+		
+block title
+	|Новости
+
+block content
+
+	//===== banner =====
+
+	
+	.banner.banner_min.gallery-banner
+		h1.h2 Новости
+		h4.h4 События в нашей компании
+
+	//===== about-us =====
+
+	.wrapper
+		
+		//===== sertificate =====
+
+		section.news
+			.new
+				.new__img
+					img(src="img/lampy.png", alt="")
+				.new__inner
+					header.new__header
+						h4.h3 Заголовок новости
+						span 12.08.2017
+					.new__txt  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, rem ex fugiat et nisi animi sapiente accusamus, fugit tempore, a nihil quaerat explicabo, vitae. Accusantium a velit vel tempora assumenda.
+			.new
+				.new__img
+					img(src="img/lampy.png", alt="")
+				.new__inner
+					header.new__header
+						h4.h3 Заголовок новости 2
+						span 22.08.2017
+					.new__txt  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, rem ex fugiat et nisi animi sapiente accusamus, fugit tempore, a nihil quaerat explicabo, vitae. Accusantium a velit vel tempora assumenda.
+
+
+
+		//===== contacts =====
+
+		include section/contacts

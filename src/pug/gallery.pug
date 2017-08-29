@@ -1,0 +1,33 @@
+extends layout/main
+		
+block title
+	|Галерея
+
+block content
+
+	//===== banner =====
+
+	.banner.banner_min.gallery-banner
+		h1.h2 Галерея
+		h4.h4 Наш коллектив и рабочие моменты
+
+	//===== gallery =====
+
+	.wrapper
+		.gallery
+			a(href="img/we.jpg").gallery__item
+				img(src="img/we.jpg", alt="nexans")
+			a(href="img/we.jpg").gallery__item
+				img(src="img/we.jpg", alt="nexans")
+			a(href="img/we.jpg").gallery__item
+				img(src="img/we.jpg", alt="nexans")
+			a(href="img/we.jpg").gallery__item
+				img(src="img/we.jpg", alt="nexans")
+			a(href="img/we.jpg").gallery__item
+				img(src="img/we.jpg", alt="nexans")
+			a(href="img/we.jpg").gallery__item
+				img(src="img/we.jpg", alt="nexans")
+					
+		//===== contacts =====
+
+		include section/contacts

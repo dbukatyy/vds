@@ -1,0 +1,58 @@
+extends layout/main
+		
+block title
+	|Главная
+
+block content
+
+	//===== banner =====
+
+	.banner
+		h1.h1 ооо "вдс"
+		h3.h3 оптовая и розничная торговля <br> электротехнической продукцией. <br> Строительно - монтажные и пусконаладочные работы
+		i.icon-down
+
+	//===== about-us =====
+
+	.wrapper
+		section.about-us
+			h3.h3.title О компании
+			.row.middle-sm.center-xs
+				.about-us__img.col-sm-4
+					img(src="img/we.jpg", alt="Наш коллектив")
+				.about-us__txt.col-sm-8
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos vero eius deleniti maiores voluptatum non explicabo quos, dolore veniam natus impedit dolorum doloribus reprehenderit nostrum iusto. Quo, at. Dolor, nemo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos vero eius deleniti maiores voluptatum non explicabo quos, dolore veniam natus impedit dolorum doloribus reprehenderit nostrum iusto. Quo, at. Dolor, nemo!
+
+		//===== partners =====
+
+		section.partners
+			h3.h3.title Партнеры компании
+			.partners-list
+				.partner
+					img(src="img/nexans.png", alt="nexans")
+				.partner
+					img(src="img/heluka.png", alt="nexans")
+				.partner
+					img(src="img/kamkabel.png", alt="nexans")
+				.partner
+					img(src="img/bitner.png", alt="nexans")
+				.partner
+					img(src="img/bitner.png", alt="nexans")
+
+		//===== sertificate =====
+
+		section.sertificates
+			h3.h3.title Сертификаты
+			.sertificates-list
+				a(href="img/sertificate.png").sertificate
+					img(src="img/sertificate.png", alt="nexans")
+				a(href="img/sertificate.png").sertificate
+					img(src="img/sertificate.png", alt="nexans")
+				a(href="img/sertificate.png").sertificate
+					img(src="img/sertificate.png", alt="nexans")
+				a(href="img/sertificate.png").sertificate
+					img(src="img/sertificate.png", alt="nexans")
+
+		//===== contacts =====
+
+		include section/contacts

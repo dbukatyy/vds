@@ -1,0 +1,45 @@
+extends layout/main
+		
+block title
+	|Продукция
+
+block content
+
+	//===== banner =====
+
+	.banner.banner_min.catalogies-banner
+		h1.h2 Продукция
+		h4.h4 каталог изделий имеющийся в наличии
+
+	//===== gallery =====
+
+	.wrapper
+		.catalogies
+			a(href="products.html").catalogies__item.link
+				.catalogies__img(style="background-image: url('img/cabel.png')")
+				.catalogies__name Кабельная продукция
+			a(href="img/we.jpg").catalogies__item.link
+				.catalogies__img(style="background-image: url('img/svet.png')")
+				.catalogies__name Светильники
+			a(href="img/we.jpg").catalogies__item.link
+				.catalogies__img(style="background-image: url('img/lampy.png')")
+				.catalogies__name Лампы
+			a(href="img/we.jpg").catalogies__item.link
+				.catalogies__img(style="background-image: url('img/schit.png')")
+				.catalogies__name Щиты, боксы
+			a(href="img/we.jpg").catalogies__item.link
+				.catalogies__img(style="background-image: url('img/elektroschetchik.png')")
+				.catalogies__name Электросчетчики
+			a(href="img/we.jpg").catalogies__item.link
+				.catalogies__img(style="background-image: url('img/avtomaty.png')")
+				.catalogies__name Автоматы
+			a(href="img/we.jpg").catalogies__item.link
+				.catalogies__img(style="background-image: url('img/dif.png')")
+				.catalogies__name Диф.автоматы, УЗО
+			a(href="img/we.jpg").catalogies__item.link
+				.catalogies__img(style="background-image: url('img/other.png')")
+				.catalogies__name Другое
+
+		//===== contacts =====
+
+		include section/contacts

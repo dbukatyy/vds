@@ -1,0 +1,29 @@
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+
+	&-banner {
+		background: url('../img/gallery.jpg') 50% no-repeat;
+		background-size: cover;
+		
+		.h4 {
+			font-weight: 100;
+		}
+	}
+
+
+	&__item {
+		width: 32%;
+		height: 280px;
+		overflow: hidden;
+		position: relative;
+		display: flex;
+		margin: 10px auto;
+
+		img {
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+	}
+}

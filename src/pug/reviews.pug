@@ -1,0 +1,34 @@
+extends layout/main
+		
+block title
+	|Отзывы
+
+block content
+
+	//===== banner =====
+
+	
+	.banner.banner_min.gallery-banner
+		h1.h2 Отзывы
+		h4.h4 Наши клиенты о нас
+
+	//===== about-us =====
+
+	.wrapper
+		
+		//===== sertificate =====
+
+		section.sertificates
+			.sertificates-list
+				a(href="img/reviews/review1.jpg").sertificate
+					img(src="img/reviews/review1.jpg", alt="nexans")
+				a(href="img/reviews/review1.jpg").sertificate
+					img(src="img/reviews/review1.jpg", alt="nexans")
+				a(href="img/reviews/review1.jpg").sertificate
+					img(src="img/reviews/review1.jpg", alt="nexans")
+				a(href="img/reviews/review1.jpg").sertificate
+					img(src="img/reviews/review1.jpg", alt="nexans")
+
+		//===== contacts =====
+
+		include section/contacts
